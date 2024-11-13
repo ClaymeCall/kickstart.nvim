@@ -134,6 +134,7 @@ require('lazy').setup({
     config = function()
       require("notify").setup({
         background_colour = "#000000",
+        opacity = 50,
         enabled = false,
       })
     end
